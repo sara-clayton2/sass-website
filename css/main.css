@@ -100,7 +100,7 @@ a:focus {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ img {
 	overflow: hidden;
 	margin: 0; 
 	padding: 0;
-	color: #000;
+	background-color: #262626;
 }
 
 .copyright{ 
@@ -139,9 +139,16 @@ img {
 	overflow: hidden;
 	margin: 0; 
 	padding: 0;
+	color: #fff;
 }
 
-
+.header { 
+	background-color: #262626;
+	color: #FF8533;
+	margin: 0; 
+    padding: 0; 
+	overflow: hidden;
+}
 
 @media only screen and (min-width: 30em) { 
     
