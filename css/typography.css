@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Merriweather",serif;
+  font: normal 100%/1.5 "Oxygen",sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -144,11 +144,11 @@ sub {
 
 h1, h2, h3, h4, h5, h6,
 .brand-family {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .default-family {
-  font-family: "Merriweather", serif;
+  font-family: "Oxygen", serif;
 }
 
 .bold {
