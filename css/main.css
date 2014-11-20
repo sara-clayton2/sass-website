@@ -150,6 +150,65 @@ img {
 	overflow: hidden;
 }
 
+
+.figure {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0em; 
+  position: relative;
+}
+
+.slogan { 
+    position: absolute; 
+    top: 100px; 
+    left: 0; 
+    width: 100%; 
+    color: white;
+	text-align: center;
+} 
+
+.title {
+    position: absolute; 
+    top: 40px; 
+    left: 0; 
+    width: 100%; 
+    color: white;
+	text-align: center;
+}
+
+h2 { 
+	text-align: center;
+	color: #363636; 
+}
+
+.info { 
+	color: #A1A1A1; 
+	text-align: center;
+}
+
+.figcap { 
+ 	color: #A1A1A1;
+ 	text-align: center;
+}
+
+h3 { 
+	color:#363636;
+	text-align: center;
+}
+
+.orange { 
+	background-color:  #FF8533;
+	color: #EDEDED;
+}
+
+.icon { 
+	width:150px; 
+	height:150px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (min-width: 30em) { 
     
 	 .nav { 
