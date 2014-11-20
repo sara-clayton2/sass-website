@@ -192,6 +192,13 @@ h2 {
  	text-align: center;
 }
 
+
+.figcaps { 
+ 	color: #A1A1A1;
+ 	text-align: center;
+	float: inherit;
+}
+
 h3 { 
 	color:#363636;
 	text-align: center;
