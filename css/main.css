@@ -175,7 +175,7 @@ img {
     top: 100px; 
     left: 0; 
     width: 100%; 
-    color: #000;
+    color: #fff;
 	text-align: center;
     font-size: 1rem;
     line-height: 1.6648;
@@ -186,8 +186,33 @@ img {
     top: 40px; 
     left: 0; 
     width: 100%; 
-    color: #000;
+    color: #fff;
 	text-align: center;
+}
+
+.signup {  
+	cursor: pointer;
+	text-align: center;
+}
+
+.buttonbox { 
+	text-align: center;
+	position: absolute; 
+    top: 170px; 
+    left: 0; 
+    width: 100%;
+}
+
+button { 
+	font-size: 2em;
+	margin:0; 
+	padding-top: -40em;
+	color: #fff;
+	background-color: #FF8533;
+	border:#FF8533;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
 }
 
 h2 { 
@@ -336,7 +361,7 @@ h3 {
     top: 100px; 
     left: 0; 
     width: 100%; 
-    color: #000;
+    color: #fff;
 	text-align: center;
 	font-size: 1.8020rem;
     line-height: 1.6648;
