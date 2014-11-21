@@ -1,6 +1,7 @@
 html {
-  font: normal 100%/1.5 "Oxygen",sans-serif;
+  font: normal 100%/1.5 'Arimo', sans-serif;
 }
+
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
@@ -144,11 +145,11 @@ sub {
 
 h1, h2, h3, h4, h5, h6,
 .brand-family {
-  font-family: "Oxygen", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .default-family {
-  font-family: "Oxygen", serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 .bold {
