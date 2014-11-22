@@ -111,7 +111,7 @@ a:focus {
 .nav .nav-current:link,
 .nav .nav-current:visited {
   background-color: #FF8533;
-  color:#000;
+  color:#262626;
 }
 
 .gutter { 
@@ -225,6 +225,11 @@ h2 {
 	text-align: center;
 }
 
+.about { 
+	color: #A1A1A1; 
+	text-align: center;
+}
+
 .figcap { 
  	color: #A8A8A8 ;
  	text-align: center;
@@ -244,7 +249,7 @@ h3 {
 
 .orange { 
 	background-color:  #FF8533;
-	color: #EDEDED;
+	color: #fff;
 }
 
 .icon { 
@@ -345,27 +350,34 @@ h3 {
 		} 
 	
 	 .nav li { 
-			display:center;
+		display:center;
 	}
 	
 	.copyright { 
-			text-align: left;
+		text-align: left;
 	}
 	
 	.footer { 
-			text-align: right;	
+		text-align: right;	
 	}
 	
 	.slogan { 
-    position: absolute; 
-    top: 100px; 
-    left: 0; 
-    width: 100%; 
-    color: #262626;
-	text-align: center;
-	font-size: 1.8020rem;
-    line-height: 1.6648;
+		position: absolute; 
+		top: 100px; 
+		left: 0; 
+		width: 100%; 
+		color: #262626;
+		text-align: center;
+		font-size: 1.8020rem;
+		line-height: 1.6648;
 } 
+	
+	.about { 
+		color: #A1A1A1; 
+		margin-left: 7em;
+		margin-right: 7em;
+
+}
 	
 }
 
@@ -374,12 +386,17 @@ h3 {
 
 	
 	.copyright { 
-			text-align: left;
+		text-align: left;
 	}
 
 	.footer { 
-			text-align: right;	
+		text-align: right;	
 	
 	}
+	.about { 
+		color: #A1A1A1; 
+		margin-left: 7em;
+		margin-right: 7em;
 
+}
 }
