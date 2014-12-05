@@ -173,7 +173,7 @@ img {
     top: 100px; 
     left: 0; 
     width: 100%; 
-    color: #FF8533;
+    color: #262626;
 	text-align: center;
     font-size: 1rem;
     line-height: 1.6648;
@@ -185,7 +185,7 @@ img {
     top: 40px; 
     left: 0; 
     width: 100%; 
-    color: #FF8533;
+    color: #262626;
 	text-align: center;
 }
 
@@ -194,14 +194,14 @@ img {
 	text-align: center;
 }
 
-
 .box,
 .box:link, 
 .box:visited
 { 
-	font-size: 1.5em;
-	color: #fff;
-	background-color: #363636;
+	font-size: 1.25em;
+	color: #000;
+	background-color: white;
+	opacity: 0.8;
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px;
@@ -211,6 +211,11 @@ img {
 	left: 50%;
 	transform: translateX(-50%);
 	text-decoration: none;
+}
+
+.FAQ { 
+	color: #FF8533;
+	font-size: 2em;
 }
 
 .caps {
@@ -347,21 +352,20 @@ td {
   text-align: center;
   background-color:#E0E0E0 ;
   font-size: 1em;	
+  color: #303030;	
+  border-bottom: solid 1px #A0A0A0;
 }
 
 thead th {
   background-color: #303030;
   color: #fff;	
-  font-size: 1.75em;	
+  font-size: 1.75em;
+  border: none;	
 }
 
 .price { 
-	font-size: 1.5em;
-	
-	
-
-
-
+	font-size: 1.75em;
+	border: none;
 }
 
 @media only screen and (min-width: 30em) { 
@@ -405,7 +409,7 @@ thead th {
 		top: 100px; 
 		left: 0; 
 		width: 100%; 
-		color: #FF8533;
+		color: #262626;
 		text-align: center;
 		font-size: 1.8020rem;
 		line-height: 1.6648;
@@ -418,6 +422,23 @@ thead th {
 
 }
 	
+	.slogan { 
+    position: absolute; 
+    top: 230px; 
+
+} 
+
+	.title {
+		position: absolute; 
+		top: 150px; 
+	}
+
+
+	.box,
+	.box:link, 
+	.box:visited
+	{  
+		top: 320px;
 }
 
  
@@ -432,10 +453,31 @@ thead th {
 		text-align: right;	
 	
 	}
+	
 	.about { 
 		color: #A1A1A1; 
 		margin-left: 7em;
 		margin-right: 7em;
+	}
+	
+	.slogan { 
+		position: absolute; 
+		top: 280px; 
 
-}
+	} 
+
+	.title {
+		position: absolute; 
+		top: 200px; 
+	}
+
+
+	.box,
+	.box:link, 
+	.box:visited
+	{  
+		top: 390px;
+	}
+	
+	
 }
