@@ -135,6 +135,7 @@ img {
 	margin: 0; 
 	padding: 0;
 	background-color: #262626;
+	color: #fff;
 }
 
 
@@ -384,7 +385,7 @@ input[type='submit']:hover {background-color:darken($bg,5%);}
 
 .FAQ { 
 	color: #FF8533;
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 .caps {
