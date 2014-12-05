@@ -137,13 +137,165 @@ img {
 	background-color: #262626;
 }
 
-.copyright{ 
-	font-weight: 400;
-	overflow: hidden;
-	margin: 0; 
-	padding: 0;
-	color: #fff;
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clr {clear:both;}
+
+$bg: #987;  
+$text: lighten($bg,35%);
+
+.roundedborder {
+  @include border-radius (.2em);
+  border: 2px solid darken($bg, 10%);
 }
+
+
+body {
+  background: $bg; 
+  color:$text; 
+  font-family:Century Gothic;
+}
+
+form { 
+  font-size:1.2em; 
+  margin: 2em auto; 
+  @extend .roundedborder; 
+  padding:2em;
+  width:70%;
+}
+
+input, select, textarea {outline:none;}
+label {padding:0 .5em 0 .5em;}
+
+
+input[type='text'] {
+  @extend .roundedborder;
+  background-color: darken($bg, 5%);
+  color: #FF8533;
+  font-size:1em;
+  margin:.2em 0 1em;
+  padding: .25em;
+  width:100%;
+}
+
+::-webkit-input-placeholder {color: lighten($bg, 10%);}
+:-moz-placeholder {color: lighten($bg, 10%);} 
+::-moz-placeholder {color: lighten($bg, 10%);} 
+:-ms-input-placeholder {color: lighten($bg, 10%);}
+
+
+fieldset {
+  @extend .roundedborder;
+  margin-bottom:2em;
+  padding:.5em .5em;
+}
+
+input[type='radio'] {
+  appearance:none;
+  border: solid .1em lighten($bg,7%);;
+  @include border-radius(50%);
+  background-color:darken($bg, 5%);
+  cursor:pointer;
+  height:2.5em;
+  width: 2.5em;
+  margin-top:0;
+  vertical-align:text-top;
+}
+
+input[type="radio"]:checked:after {
+  background-color: 15%;
+  border-radius:50%;
+  content:"\00a0";
+  display:block;
+  position:relative;
+  height:1.5em;
+  width:1.5em;
+  margin:.4em;
+}
+
+.styled-select {
+  display:inline-block;
+  @extend .roundedborder;
+  background-color: lighten($bg, 5%);
+  color: darken($bg, 10%);
+  cursor:pointer;
+  font-size:1.1em;
+  margin-bottom:1.5em;
+  padding:.25em 0;
+  position:relative;
+  width:15em;
+}
+
+.styled-select:before {
+  font-family: sans-serif; 
+  border: solid 1px darken($bg,10%);
+  border-width: 0 0 0 1px;
+  content:'\f103';
+  color:darken($bg,15%);
+  font-size:1.25em;
+  padding-left:.25em;
+  position:absolute;
+  pointer-events:none;
+  right:.35em;
+}
+
+select {
+    appearance:none;
+    background-color:transparent;
+    border:none;
+    cursor:pointer;
+    color: #FF8533;
+    display:inline-block;
+    font-size:1em;
+    margin:0; 
+	padding:0 2em 0 1em;
+    width:100%;
+}
+
+textarea {
+  @extend .roundedborder;
+  background-color: darken($bg, 5%);
+  color: #FF8533;
+  font-size:1em;
+  height:10em;
+  margin:.5em 0 1em;
+  padding:1em;
+  width:100%;
+}
+
+input[type='checkbox'] {
+  appearance:none;
+  @extend .roundedborder;
+  background-color:darken($bg, 5%);
+  cursor:pointer;
+  font-size:1em;
+  padding: .25em;
+  height:1em; width:1em;
+  vertical-align:text-top;
+}
+
+input[type='checkbox']:checked:after {
+  border:solid $text;
+  border-width:0 4px 4px 0;
+  content:"\00a0";
+  display:block;
+  height:1em; width:.5em;
+  margin-top:-.9em;
+  position:relative;
+  transform:rotate(45deg); 
+}
+
+
+input[type='submit'] {
+  @extend .roundedborder;
+  background-color:#FF8533;
+  cursor:pointer;
+  float:right;
+  font-size:1.5em;
+  padding: .25em 1em;
+}
+
+input[type='submit']:hover {background-color:darken($bg,5%);}
 
 .header { 
 	background-color: #262626;
@@ -164,6 +316,7 @@ img {
     margin-right: auto;	
 }
 
+
 .figure {
   display: block;
   width: 100%;
@@ -182,6 +335,16 @@ img {
     font-size: 1rem;
     line-height: 1.6648;
 	font-weight: 800;
+} 
+
+.slogan2 { 
+    color: #000 ;
+ 	text-align: center;
+    position: absolute; 
+    top: 130px; 
+    left: 0; 
+    width: 100%;
+	font-weight: 650;
 } 
 
 .title {
@@ -362,6 +525,16 @@ td {
   border-bottom: solid 1px #A0A0A0;
 }
 
+.started { 
+	text-align: center;
+}
+
+.now { 
+	border: none;
+	color: #fff;
+	font-size: 1.5em;
+}
+
 thead th {
   background-color: #303030;
   color: #fff;	
@@ -438,6 +611,13 @@ thead th {
 		position: absolute; 
 		top: 150px; 
 	}
+	
+	.slogan2 { 
+
+    top: 250px; 
+    left: 0; 
+    width: 100%;
+} 
 
 
 	.box,
@@ -447,6 +627,7 @@ thead th {
 		top: 320px;
 }
 
+}
  
 @media only screen and (min-width: 60em) { 
 
