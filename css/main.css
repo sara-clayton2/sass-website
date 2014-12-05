@@ -113,6 +113,10 @@ a:focus {
   color:#262626;
 }
 
+.logo { 
+	width: 100px;
+}
+
 .gutter { 
 	padding-left: 1em; 
 	padding-right: 1em; 
@@ -198,10 +202,11 @@ img {
 .box:link, 
 .box:visited
 { 
-	font-size: 1.25em;
-	color: #000;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #262626;
 	background-color: white;
-	opacity: 0.8;
+	opacity: 0.9;
 	border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	-webkit-border-radius: 5px;
@@ -211,6 +216,7 @@ img {
 	left: 50%;
 	transform: translateX(-50%);
 	text-decoration: none;
+	padding: 5px;
 }
 
 .FAQ { 
@@ -476,7 +482,8 @@ thead th {
 	.box:link, 
 	.box:visited
 	{  
-		top: 390px;
+		top: 450px;
+		font-size: 2em;
 	}
 	
 	
