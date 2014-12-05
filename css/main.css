@@ -331,7 +331,7 @@ input[type='submit']:hover {background-color:darken($bg,5%);}
     top: 100px; 
     left: 0; 
     width: 100%; 
-    color: #262626;
+    color: #fff;
 	text-align: center;
     font-size: 1rem;
     line-height: 1.6648;
@@ -339,7 +339,7 @@ input[type='submit']:hover {background-color:darken($bg,5%);}
 } 
 
 .slogan2 { 
-    color: #000 ;
+    color: #fff ;
  	text-align: center;
     position: absolute; 
     top: 130px; 
@@ -353,7 +353,7 @@ input[type='submit']:hover {background-color:darken($bg,5%);}
     top: 40px; 
     left: 0; 
     width: 100%; 
-    color: #262626;
+    color: #fff;
 	text-align: center;
 }
 
@@ -563,6 +563,11 @@ thead th {
 			text-align: center;
 		}
 	
+		.title {
+		position: absolute; 
+		top: 50px; 
+		color:#fff;
+	}
 }
 
  
@@ -589,7 +594,7 @@ thead th {
 		top: 100px; 
 		left: 0; 
 		width: 100%; 
-		color: #262626;
+		color: #fff;
 		text-align: center;
 		font-size: 1.8020rem;
 		line-height: 1.6648;
@@ -611,6 +616,7 @@ thead th {
 	.title {
 		position: absolute; 
 		top: 150px; 
+		color:#fff;
 	}
 	
 	.slogan2 { 
