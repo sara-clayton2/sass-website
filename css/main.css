@@ -251,7 +251,7 @@ h3 {
 }
 
 .orange { 
-	background-color:  #FF8533;
+	background-color: #FF8533;
 	color: #fff;
 }
 
@@ -326,7 +326,43 @@ h3 {
 	5%, 15% { opacity: 1;}
 }
 
+.table-outer {
+  overflow-x: auto;
+}
 
+.table-inner {
+  margin: 0 auto;
+  max-width: 20em;
+  min-width: 10em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.2rem;
+  text-align: center;
+  background-color:#E0E0E0 ;
+  font-size: 1em;	
+}
+
+thead th {
+  background-color: #303030;
+  color: #fff;	
+  font-size: 1.75em;	
+}
+
+.price { 
+	font-size: 1.5em;
+	
+	
+
+
+
+}
 
 @media only screen and (min-width: 30em) { 
     
@@ -337,11 +373,11 @@ h3 {
 
 	 .nav li { 
 			display:inline-block; 
-	}
+		}
 	
 	.footer { 
 			text-align: center;
-	}
+		}
 	
 }
 
