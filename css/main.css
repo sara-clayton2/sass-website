@@ -114,7 +114,8 @@ a:focus {
 }
 
 .logo { 
-	width: 100px;
+	width: 160px;
+	height: auto;
 }
 
 .gutter { 
@@ -193,8 +194,6 @@ fieldset {
 input[type='radio'] {
   appearance:none;	
   cursor:pointer;
-  height:2.5em;
-  width: 2.5em;
   margin-top:0;
   vertical-align:text-top;
   font-size: 1em;
@@ -203,7 +202,6 @@ input[type='radio'] {
 input[type="radio"]:checked:after {
   background-color: 15%;
   border-radius:60%;
-  content:"\00a0";
   display:block;
   position:relative;
   height:1.5em;
@@ -223,10 +221,7 @@ input[type="radio"]:checked:after {
 
 .styled-select:before {
   font-family: sans-serif; 
-  border: solid 1px darken($bg,10%);
   border-width: 0 0 0 1px;
-  content:'\f103';
-  color:darken($bg,15%);
   font-size:1.25em;
   padding-left:.25em;
   position:absolute;
@@ -290,7 +285,6 @@ input[type='submit'] {
 }
 
 
-
 .header { 
 	background-color: #262626;
 	color: #FF8533;
@@ -309,7 +303,6 @@ input[type='submit'] {
 	margin-left: auto;
     margin-right: auto;	
 }
-
 
 .figure {
   display: block;
@@ -533,6 +526,25 @@ td {
 	border: none;
 	color: #fff;
 	font-size: 1.5em;
+	background-color: #333;
+	padding: .5em;
+	text-decoration: none;
+}
+
+.button { 
+
+
+
+
+}
+
+.thanks { 
+	color: #303030;
+	font-size: 2.5em;
+	text-align: center;
+	background-color: #FF8533;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 thead th {
